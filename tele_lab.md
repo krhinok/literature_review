@@ -12,7 +12,7 @@ ACE: A Cross-Platform Visual-Exoskeletons System for Low-Cost Dexterous Teleoper
 Conference on Robot Learning (CoRL), 2024.
 
 
-## UC Berkeley’s Merchanical Systems Control (MSC) Lab, directed by Professor Masayoshi Tomizuka
+## UC Berkeley’s Mechanical Systems Control (MSC) Lab, directed by Professor Masayoshi Tomizuka
 
 Global-Local Interface with Selective Direct and Singularity-Avoiding Motion Mapping for Intuitive Teleoperation
 
