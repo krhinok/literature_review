@@ -40,3 +40,6 @@ https://svl.stanford.edu/
 ## Stanford AI lab
 https://zipengfu.github.io/
 Imitation learning
+
+## Carnegie Mellon University the Interactive and Trustworthy Robotics Lab (Intent Lab).
+https://cmu-intentlab.github.io/
