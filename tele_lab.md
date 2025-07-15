@@ -2,6 +2,7 @@
 - 遥操作系统搭建
 - 
 
+safety filter 与 OOD generalization结合，通过
 
 ## Xiaolong Wang UCSD
 
@@ -36,3 +37,6 @@ Dr. Dandan Zhang https://www.intelligentrobotics-acrossscales.com/
 ## Stanford Vision and Learning Lab (SVL)
 https://svl.stanford.edu/
 
+## Stanford AI lab
+https://zipengfu.github.io/
+Imitation learning

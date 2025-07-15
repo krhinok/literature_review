@@ -9,16 +9,23 @@ code: yes
 
 Prior works on dimensionality reduction have shown increasingly sophisticated methods for designing or learning a mapping from the user’s input to the robot’s high-DOF control action [39, 24, 40, 19].
 
-翻译：
 早期的维度简化研究提出了越来越复杂的方法，用于从用户输入中设计或学习出到机器人高自由度动作的映射关系 [39, 24, 40, 19]。
 
 Alternatively, the shared control paradigm combines low-DoF human input with autonomous robot policies in order to make teleoperation of the robot more fluent [7, 6].
 
-翻译：
 另一种方法是“共享控制”模式，它结合了低自由度的人类输入与机器人的自动策略，从而使遥操作更流畅 [7, 6]。
 
 Other works considers the inverse approach of developing high-dimensional interfaces to control high-DoF robots [35].
 
-翻译：
 还有研究反过来尝试开发高维人机接口，直接控制高自由度机器人 [35]。
 
+## Adapting by Analogy: OOD Generalization of Visuomotor Policies via Functional Correspondence
+OOD-ID
+我们方法的一个关键部分是利用专家的人类知识——以文本描述的形式——来交互式地学习与当前任务相关的高级功能对应关系。
+![alt text](<屏幕截图 2025-07-15 061321.png>)
+
+code:no
+
+Future work should study the autonomous identification of correspondence features (e.g., via another foundation model).
+
+## Generalizing Safety Beyond Collision-Avoidance via Latent-Space Reachability Analysis
