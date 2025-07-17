@@ -29,3 +29,11 @@ code:no
 Future work should study the autonomous identification of correspondence features (e.g., via another foundation model).
 
 ## Generalizing Safety Beyond Collision-Avoidance via Latent-Space Reachability Analysis
+将机器人安全控制从传统的“避免碰撞”扩展到更复杂、更难以手动定义的失败情境，例如防止机器人打翻物体或洒出袋中物品
+论文提出了一种基于潜空间（latent space）的安全分析方法，Latent Safety Filters。
+HJ 可达性的一个潜空间泛化方法
+
+## Uncertainty-aware Latent Safety Filters for Avoiding Out-of-Distribution Failures
+不确定性感知的潜在安全过滤器（uncertainty-aware latent safety filter）
+共形预测（conformal prediction）
+Our key idea is to use the world model’s epistemic uncertainty as a proxy for identifying unseen potential hazards.
