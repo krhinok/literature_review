@@ -293,3 +293,9 @@ video:yes
 论文链接：[(Wei et al., 2024)](https://consensus.app/papers/dr-o-grasp-a-unified-representation-of-robot-and-object-wei-xu/a4068f7202185a849d714b9180334890/?utm_source=chatgpt)
 
 code:
+
+## 12.LAMS: LLM-Driven Automatic Mode Switching for Assistive Teleoperation
+利用大语言模型 (LLM) 根据任务上下文自动切换控制模式
+
+## 13.Bunny-VisionPro: Real-Time Bimanual Dexterous Teleoperation for Imitation Learning
+Bunny-VisionPro，是一种利用 VR 耳机的实时双手灵巧遥操作系统。与以前基于视觉的遥操作系统不同，其设计低成本设备，为操作员提供触觉反馈，增强沉浸感。系统通过结合碰撞和奇点的避免来优先考虑安全性，同时通过设计保持实时性能。

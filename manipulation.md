@@ -1,7 +1,7 @@
 
 训练数据来源：遥操作数据
 遥操作只是为了提供数据？
-
+辅助遥操作抓取：在移动机器人进行遥操作抓取时，不同物体应当抓取不同的位置，避免例如液体洒落等问题。在抓取物体时
 
 ## 1.AhaRobot: A Low-Cost Open-Source Bimanual Mobile Manipulator for Embodied AI
 本文提出 AhaRobot，一种低成本、开源、双臂移动操作机器人系统，旨在推动具身人工智能（Embodied AI）研究在真实环境中的应用。AhaRobot系统的成本仅为1000美元（不含计算模块），约为现有主流移动操作平台的 1/15。
