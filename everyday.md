@@ -11,3 +11,5 @@
 ## ReSem3D: Refinable 3D Spatial Constraints via Fine-Grained Semantic Grounding for Generalizable Robotic Manipulation
 语义驱动的3D空间约束将高层语义表示与低层动作空间对齐，促进机器人操纵的任务理解和执行统一。现有方法存在限制：（1）约束建模的语义粒度粗糙；（2）缺乏实时闭环规划；（3）在语义多样环境中的鲁棒性不足。为解决这些问题，论文提出ReSem3D框架，利用VFMs和MLLMs进行细粒度视觉 grounding，并动态构建分层3D空间约束，支持实时操纵。框架采用MLLMs中的分层递归推理，与VFMs交互，从自然语言指令和RGB-D观察中分两个阶段构建约束：部件级提取和区域级精炼。这些约束编码为关节空间的实时优化目标，实现对动态扰动的反应行为。模拟和真实世界实验显示，ReSem3D在零样本条件下处理多样操纵任务，具有强大适应性和泛化能力
 
+## High-Resolution Characterization of the Size Exclusion Effect on the Transport of Low-Concentration Mixed-Size Colloids in Porous Media Using a Synthetic DNA-Labeling Method
+胶体在地下水中的传输对污染物扩散至关重要，其中尺寸排除效应（Size Exclusion Effect, SEE）是影响胶体命运的关键机制。然而，准确测量低浓度胶体并区分不同粒径的胶体仍面临挑战。本研究将特定DNA片段封装在粒径为0.1、0.2、0.5、1.0、3.0和5.0 μm的胶体中，进行单尺寸或多尺寸胶体的柱状实验，以表征胶体突破曲线并量化SEE。该方法显著增强了检测信号，能够在极低浓度（≤10 mg L⁻¹）下准确检测胶体并精确区分胶体尺寸。此外，通过拟合胶体突破曲线量化SEE的关键参数，即移动胶体不可达的水饱和度（γ）。回归分析显示，γ参数与胶体直径之间呈幂函数相关性，表明SEE随着胶体直径增加而加剧。这些发现突显了DNA标记在高分辨率表征低浓度和混合尺寸胶体颗粒在多孔介质中传输方面的潜力。该研究增强了对胶体传输行为的理解及其环境影响。
