@@ -13,3 +13,8 @@
 
 ## High-Resolution Characterization of the Size Exclusion Effect on the Transport of Low-Concentration Mixed-Size Colloids in Porous Media Using a Synthetic DNA-Labeling Method
 胶体在地下水中的传输对污染物扩散至关重要，其中尺寸排除效应（Size Exclusion Effect, SEE）是影响胶体命运的关键机制。然而，准确测量低浓度胶体并区分不同粒径的胶体仍面临挑战。本研究将特定DNA片段封装在粒径为0.1、0.2、0.5、1.0、3.0和5.0 μm的胶体中，进行单尺寸或多尺寸胶体的柱状实验，以表征胶体突破曲线并量化SEE。该方法显著增强了检测信号，能够在极低浓度（≤10 mg L⁻¹）下准确检测胶体并精确区分胶体尺寸。此外，通过拟合胶体突破曲线量化SEE的关键参数，即移动胶体不可达的水饱和度（γ）。回归分析显示，γ参数与胶体直径之间呈幂函数相关性，表明SEE随着胶体直径增加而加剧。这些发现突显了DNA标记在高分辨率表征低浓度和混合尺寸胶体颗粒在多孔介质中传输方面的潜力。该研究增强了对胶体传输行为的理解及其环境影响。
+
+# 7.29
+## A Fast and Light-weight Non-Iterative Visual Odometry with RGB-D Cameras
+提出了一种使用RGB-D相机的视觉里程计（VO）的新方法。视觉里程计从图像序列中估计相机（或机器人）随时间的位置和方向，这对于增强现实（AR）、虚拟现实（VR）和自主导航等应用至关重要。
+这种方法称为非迭代深度增强视觉里程计（NIDEVO），其突出特点是非迭代、解耦和轻量级，避免了传统方法（如ORB-SLAM或DSO）对特征提取、匹配和迭代优化求解器的依赖。相反，它利用场景中重叠的平面元素来估计6-DoF（自由度）姿态——将旋转和平移分离以提高效率。它在标准i5 CPU上实现了约71 Hz的实时性能，适用于资源受限的设备。
