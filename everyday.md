@@ -30,3 +30,7 @@ MetaMorph提供了一个全面的机器人形态分类解决方案，解决现�
 
 ## Human-Agent Joint Learning for Efficient Robot Manipulation Skill Acquisition
 通过比例调整人类操作者遥操作与assistive agent的控制比例，提高训练效率。
+
+# 7.30
+## A Human-in-the-loop Approach to Robot Action Replanning through LLM Common-Sense Reasoning
+焦点在于通过人类参与（Human-in-the-Loop, HITL）框架，利用大型语言模型（LLM）的常识推理来优化机器人动作规划。该方法基于单张RGB视频自动生成的机器人执行计划，通过自然语言输入进行调整，以避免潜在失败并适应用户指定目标。通过人类自然语言干预来提升计划的准确性和适应性。
