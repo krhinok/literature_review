@@ -38,3 +38,6 @@ MetaMorph提供了一个全面的机器人形态分类解决方案，解决现�
 # 8.1
 ## A blessing or a burden? Exploring worker perspectives of using a social robot in a church
 祝福还是负担？探索工人对在教堂中使用社交机器人的看法
+
+## Improving Generalization Ability of Robotic Imitation Learning by Resolving Causal Confusion in Observations
+增强复杂模仿学习算法的泛化能力。本文将IL策略建模为因果模型，使用有向图表示观察和动作之间的交互。
