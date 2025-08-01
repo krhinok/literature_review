@@ -34,3 +34,7 @@ MetaMorph提供了一个全面的机器人形态分类解决方案，解决现�
 # 7.30
 ## A Human-in-the-loop Approach to Robot Action Replanning through LLM Common-Sense Reasoning
 焦点在于通过人类参与（Human-in-the-Loop, HITL）框架，利用大型语言模型（LLM）的常识推理来优化机器人动作规划。该方法基于单张RGB视频自动生成的机器人执行计划，通过自然语言输入进行调整，以避免潜在失败并适应用户指定目标。通过人类自然语言干预来提升计划的准确性和适应性。
+
+# 8.1
+## A blessing or a burden? Exploring worker perspectives of using a social robot in a church
+祝福还是负担？探索工人对在教堂中使用社交机器人的看法
