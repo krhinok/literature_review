@@ -42,6 +42,21 @@ MetaMorph提供了一个全面的机器人形态分类解决方案，解决现�
 ## Improving Generalization Ability of Robotic Imitation Learning by Resolving Causal Confusion in Observations
 增强复杂模仿学习算法的泛化能力。本文将IL策略建模为因果模型，使用有向图表示观察和动作之间的交互。
 
-## 8.3
+# 8.3
 ## Multi-layer robotic controller for enhancing the safety of mobile robot navigation in human-centered indoor environments
 多层导航系统，旨在增强移动机器人在以人为中心的室内环境中的安全性。该系统专注于提高与机器人共享空间的弱势人群的安全性，同时通过减少对复杂传感器技术和计算资源的依赖来降低运营成本。
+
+## villa-X: Enhancing Latent Action Modeling in Vision-Language-Action Models
+用于增强视觉-语言-动作（VLA）模型中的潜在动作建模，以应用于机器人操作。它引入了视觉-语言-潜在动作（ViLLA）范式，该范式改进了潜在动作（帧间视觉变化的抽象表示）的学习方式及其在 VLA 预训练中的整合。
+At its core, villa-X consists of two main components: the Latent Action Model (LAM) and the Actor (ACT) module.
+
+在其核心，villa-X 由两个主要组件组成：潜在动作模型（LAM）和演员（ACT）模块。
+The LAM infers latent actions from pairs of observations using an Inverse Dynamic Model (IDM), a visual Forward Dynamic Model (FDM), and a proprioceptive FDM, which aligns latent tokens with robot states and actions for better grounding. 
+
+LAM 使用逆动态模型（IDM）、视觉前向动态模型（FDM）和本体感受前向动态模型（proprioceptive FDM）从观测对中推断潜在动作，后者将潜在标记与机器人状态和动作对齐，以实现更好的 grounding。
+The ACT module, built on a pre-trained Vision-Language Model (VLM), predicts sequences of latent actions and robot actions via a diffusion-based approach, conditioned on visual and language inputs.
+
+ACT 模块基于预训练的视觉-语言模型（VLM），通过基于扩散的方法预测潜在动作和机器人动作序列，受视觉和语言输入的条件约束。
+Trained on diverse datasets like Open X-Embodiment, Something-Something V2, and Ego4D, villa-X achieves superior generalization.
+
+在 Open X-Embodiment、Something-Something V2 和 Ego4D 等多样化数据集上训练，villa-X 实现了优越的泛化能力。
