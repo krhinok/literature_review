@@ -41,3 +41,7 @@ MetaMorph提供了一个全面的机器人形态分类解决方案，解决现�
 
 ## Improving Generalization Ability of Robotic Imitation Learning by Resolving Causal Confusion in Observations
 增强复杂模仿学习算法的泛化能力。本文将IL策略建模为因果模型，使用有向图表示观察和动作之间的交互。
+
+## 8.3
+## Multi-layer robotic controller for enhancing the safety of mobile robot navigation in human-centered indoor environments
+多层导航系统，旨在增强移动机器人在以人为中心的室内环境中的安全性。该系统专注于提高与机器人共享空间的弱势人群的安全性，同时通过减少对复杂传感器技术和计算资源的依赖来降低运营成本。
