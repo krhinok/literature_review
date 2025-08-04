@@ -60,3 +60,12 @@ ACT 模块基于预训练的视觉-语言模型（VLM），通过基于扩散的
 Trained on diverse datasets like Open X-Embodiment, Something-Something V2, and Ego4D, villa-X achieves superior generalization.
 
 在 Open X-Embodiment、Something-Something V2 和 Ego4D 等多样化数据集上训练，villa-X 实现了优越的泛化能力。
+
+# 8.4
+## XRoboToolkit: A Cross-Platform Framework for Robot Teleoperation
+当前机器人遥操作数据收集方法面临扩展性有限、设置复杂和数据质量不佳的问题，难以满足VLA模型训练的需求。
+XRoboToolkit框架：
+
+核心特性：基于扩展现实（XR）技术，提供低延迟立体视觉反馈、优化逆运动学算法，并支持多种追踪方式（如头部、控制器、手部和辅助运动追踪器）。
+跨平台兼容性：模块化架构使其能无缝集成到不同机器人平台（如精密机械臂、移动机器人、灵巧手）和仿真环境中。
+基于OpenXR标准：确保跨平台的通用性和灵活性。
