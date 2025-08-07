@@ -85,3 +85,16 @@ CHILD系统的设计：
 # 8.7
 ## Industrial Robot Motion Planning with GPUs: Integration of cuRobo for Extended DOF Systems
 文章旨在解决工业机器人多轴系统（如7轴龙门架）在复杂环境下的高效运动规划挑战。通过将cuRobo库集成到Vention的模块化自动化平台，利用基于CAD的数字孪生和实时并行优化，实现快速轨迹生成和动态避障。强调GPU加速的优势，能在毫秒级时间内处理数千条轨迹，适用于高自由度系统，并进行了性能基准测试，展示了在工业工作流程中的可扩展性。
+
+## CollaBot: Vision-Language Guided Simultaneous Collaborative Manipulation
+文章的核心问题是机器人如何与物理世界交互，尤其是处理工厂或家庭环境中大型物体（如桌子）的移动任务。这些任务通常需要多机器人协作，但传统方法主要针对小物体，且缺乏可扩展到任意机器人规模和各种任务的框架。CollaBot框架首先使用SEEM（一种视觉-语言模型）进行场景分割和目标物体的点云提取；然后提出协作抓取框架，将任务分解为局部抓取姿态生成和全局协作；最后设计两阶段规划模块，生成无碰撞轨迹。实验显示在不同机器人数量、物体和任务下的成功率达52%，证明了框架的有效性。
+
+## Improving Generalization of Language-Conditioned Robot Manipulation
+
+## Manip4Care: Robotic Manipulation of Human Limbs for Solving Assistive Tasks
+器人抓取和重新定位人体肢体可显著提升辅助护理能力，尤其在机器人辅助床浴和穿衣任务中。但现有解决方案通常假设人体静态，限制了其有效性。为此，文章提出Manip4Care，一个模块化模拟管道，启用机器人机械手抓取和重新定位肢体，同时考虑生物力学和避撞约束。方法包括力闭合抓取、抗对采样、模型预测路径积分（MPPI）和向量场控制。评估覆盖各种肢体操作任务，并应用于床浴场景，代码开源。
+
+## Safety-Aware Imitation Learning via MPC-Guided Disturbance Injection
+
+## UniFucGrasp: Human-Hand-Inspired Unified Functional Grasp Annotation Strategy and Dataset for Diverse Dexterous Hands
+用mediapipe遥操作手
