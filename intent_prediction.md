@@ -1,4 +1,11 @@
 ## Constraint-Aware Intent Estimation for Dynamic Human-Robot Object Co-Manipulation
+在物理人类-机器人协作中，考虑到约束的意图估计对机器人与人类互动至关重要。为了实现动态任务中的流畅协作，意图估计需要实时进行。传统方法往往忽略人类和机器人的运动学约束（如可达性、关节极限和人类可操作性），导致意图预测不准确或不安全。该文针对机器人无事先任务知识的场景，旨在通过物理指导（如力反馈）来估计人类意图，同时确保协作流畅、安全和可行。
+主要框架与方法
+作者提出一个结合在线估计和控制的框架，用于帮助机器人解释人类意图，并在动态物体协同操作中动态调整行为。该框架的核心包括：
+
+意图表示：采用动态系统（Dynamic Systems, DS）模型来表示人类意图。这种低维参数化模型结合人类可操作性（manipulability）和机器人运动学约束，能基于过去运动数据和跟踪错误预测意图。
+意图估计：使用粒子滤波器（particle filter）进行预测。通过修剪和重塑粒子，确保估计考虑机器人约束（如关节极限）和人类可操作性椭球（manipulability ellipsoid），从而生成可行的目标/运动意图。该方法支持四元数基的6自由度（6 DoF）意图估计，结合目标估计和运动估计，提高准确性和安全性。
+协助控制：提出一个可变阻抗控制器（variable impedance controller），根据DS粒子滤波器的意图估计置信度智能调整机器人的阻抗。只有在高置信度时，机器人提供主动协助，避免低置信度下的潜在风险。
 
 ## A System for Traded Control Teleoperation of Manipulation Tasks using Intent Prediction from Hand Gestures
 发表于2021年，主要探讨了在机器人遥操作中如何通过手势意图预测来提升操纵任务的效率。
