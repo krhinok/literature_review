@@ -101,3 +101,5 @@ CHILD系统的设计：
 
 # 8.10
 Towards Embodied Agentic AI: Review and Classification of LLM- and VLM-Driven Robot Autonomy and Interaction
+
+Genie Envisioner: A Unified World Foundation Platform for Robotic Manipulation
