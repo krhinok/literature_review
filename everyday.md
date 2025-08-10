@@ -100,6 +100,8 @@ CHILD系统的设计：
 用mediapipe遥操作手
 
 # 8.10
-Towards Embodied Agentic AI: Review and Classification of LLM- and VLM-Driven Robot Autonomy and Interaction
+## Towards Embodied Agentic AI: Review and Classification of LLM- and VLM-Driven Robot Autonomy and Interaction
 
-Genie Envisioner: A Unified World Foundation Platform for Robotic Manipulation
+## Genie Envisioner: A Unified World Foundation Platform for Robotic Manipulation
+
+## Mixed-Initiative Dialog for Human-Robot Collaborative Manipulation
