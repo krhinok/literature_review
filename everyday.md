@@ -98,3 +98,6 @@ CHILD系统的设计：
 
 ## UniFucGrasp: Human-Hand-Inspired Unified Functional Grasp Annotation Strategy and Dataset for Diverse Dexterous Hands
 用mediapipe遥操作手
+
+# 8.10
+Towards Embodied Agentic AI: Review and Classification of LLM- and VLM-Driven Robot Autonomy and Interaction
