@@ -105,3 +105,5 @@ CHILD系统的设计：
 ## Genie Envisioner: A Unified World Foundation Platform for Robotic Manipulation
 
 ## Mixed-Initiative Dialog for Human-Robot Collaborative Manipulation
+
+## Formalizing Assistive Teleoperation
