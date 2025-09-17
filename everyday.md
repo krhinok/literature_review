@@ -107,3 +107,11 @@ CHILD系统的设计：
 ## Mixed-Initiative Dialog for Human-Robot Collaborative Manipulation
 
 ## Formalizing Assistive Teleoperation
+
+
+# 9.17
+## A Converse Control Lyapunov Theorem for Joint Safety and Stability
+摘要（Abstract）
+文章的核心观点是：严格兼容的一对控制Lyapunov函数（CLF）和控制障碍函数（CBF）的存在，等价于存在一个单一的光滑Lyapunov函数，该函数同时证明系统的渐近稳定性和安全性。这种等价性提供了一个偏微分方程（PDE）表征，并带有在安全集上的规定边界条件，确保精确的安全认证。此外，如果安全与稳定规范无法由单一Lyapunov函数认证，则任何CLF-CBF对都会导致冲突，无法在鲁棒意义上同时满足。这为安全关键应用（如自动驾驶车辆、化工工厂和机器人）提供了理论基础，避免了传统优化框架（如二次规划）中兼容性问题。
+引言（Introduction）
+引言部分介绍了控制系统在安全关键场景下同时确保稳定性和正式安全保证的必要性。传统上，CLF 用于设计稳定控制器，其存在性有必要充分条件；CBF 通过Lie导数不等式确保安全，但单独使用无法保证稳定性。将CBF和CLF结合（如在优化问题中）常用于实际控制，但兼容性挑战突出，可能导致拓扑障碍或安全集要求过严。文章回顾了将CLF和CBF统一为CLBF的现有工作，并指出近期关于联合安全与稳定反Lyapunov定理的研究。该文补充了这些工作，通过严格兼容的CBF-CLF对来表征CLBF，提供PDE表征和边界条件，解决了单一函数认证的局限性。
